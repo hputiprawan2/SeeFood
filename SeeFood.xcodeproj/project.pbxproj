@@ -14,7 +14,7 @@
 		C75C1EB625E794BD004944A4 /* SeeFood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C75C1EB425E794BD004944A4 /* SeeFood.xcdatamodeld */; };
 		C75C1EB825E794C0004944A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C75C1EB725E794C0004944A4 /* Assets.xcassets */; };
 		C75C1EBB25E794C0004944A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75C1EB925E794C0004944A4 /* LaunchScreen.storyboard */; };
-		C75C1EC425E79548004944A4 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C75C1EC325E79548004944A4 /* Inceptionv3.mlmodel */; };
+		C75C1EC825E7A1B2004944A4 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C75C1EC725E7A1B2004944A4 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		C75C1EB725E794C0004944A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C75C1EBA25E794C0004944A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C75C1EBC25E794C0004944A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C75C1EC325E79548004944A4 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		C75C1EC725E7A1B2004944A4 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = ../../../../../Downloads/Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 		C75C1EAA25E794BD004944A4 /* SeeFood */ = {
 			isa = PBXGroup;
 			children = (
-				C75C1EC325E79548004944A4 /* Inceptionv3.mlmodel */,
+				C75C1EC725E7A1B2004944A4 /* Inceptionv3.mlmodel */,
 				C75C1EAB25E794BD004944A4 /* AppDelegate.swift */,
 				C75C1EAD25E794BD004944A4 /* SceneDelegate.swift */,
 				C75C1EAF25E794BD004944A4 /* ViewController.swift */,
@@ -143,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C75C1EC425E79548004944A4 /* Inceptionv3.mlmodel in Sources */,
+				C75C1EC825E7A1B2004944A4 /* Inceptionv3.mlmodel in Sources */,
 				C75C1EB025E794BD004944A4 /* ViewController.swift in Sources */,
 				C75C1EB625E794BD004944A4 /* SeeFood.xcdatamodeld in Sources */,
 				C75C1EAC25E794BD004944A4 /* AppDelegate.swift in Sources */,
