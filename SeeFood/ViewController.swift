@@ -47,13 +47,21 @@ extension ViewController: UIImagePickerControllerDelegate {
             fatalError("Loading CoreML model failed.")
         }
         
+        // Make a request ask model to classify data we passed in
         let request = VNCoreMLRequest(model: model) { (request, error) in
             guard let result = request.results as? [VNClassificationObservation] else {
                 fatalError("Model failed to process image.")
             }
-            print(result)
+            if let firstResult = result.first {
+                if firstResult.identifier.contains("hotdog") {
+                    self.navigationItem.title = "Hotdog"
+                } else {
+                    self.navigationItem.title = "Not Hotdog!"
+                }
+            }
         }
         
+        // Perform classify image
         let handler = VNImageRequestHandler(ciImage: image)
         do {
             try handler.perform([request])
